@@ -1,0 +1,12 @@
+{
+  "name": "sigma-lending-fullstack",
+  "version": "1.0.0",
+  "description": "Sigma Lending Commercial Loan Platform - Node.js Express (MVC + Services) + React (Tailwind)",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

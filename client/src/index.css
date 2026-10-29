@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-burgundy-50 text-ink-850 font-sans;
+  }
+}
+
+/* Custom range slider styling matching Figma */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #F5E4E5;
+  height: 12px;
+  border-radius: 9999px;
+}
+
+input[type="range"]::-moz-range-track {
+  background: #F5E4E5;
+  height: 12px;
+  border-radius: 9999px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -6px;
+  background-color: #5A1020;
+  height: 24px;
+  width: 24px;
+  border-radius: 9999px;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 4px 6px -1px rgba(90, 16, 32, 0.3);
+}
+
+input[type="range"]::-moz-range-thumb {
+  background-color: #5A1020;
+  height: 24px;
+  width: 24px;
+  border-radius: 9999px;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 4px 6px -1px rgba(90, 16, 32, 0.3);
+}
+
